@@ -12,14 +12,15 @@ on:
               
 
 jobs:
-  run-build:
+  job1:
     name: build
     runs-on: ubuntu-latest
 
     steps: 
         - name: checkout
-        - uses: actions/checkout@v4
+          uses: actions/checkout@v4
 
         - name: run script
-        - run: echo "hello Eddie" >> $GITHUB_STEP_SUMMARY
+          run: |
+             echo "hello Eddie" >> $GITHUB_STEP_SUMMARY
          
