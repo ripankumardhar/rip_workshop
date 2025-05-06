@@ -18,8 +18,8 @@ jobs:
 
     steps: 
         - name: checkout
-        - uses: action/checkout@v4
+        - uses: actions/checkout@v4
 
         - name: run script
-        - run: echo "hello Eddie" >> $GITHUB_STEP_SUMMERY
+        - run: echo "hello Eddie" >> $GITHUB_STEP_SUMMARY
          
