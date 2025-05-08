@@ -1,4 +1,4 @@
-name: CI
+name: Staged_deployment
 
 on:
   workflow_dispatch:
